@@ -4,28 +4,28 @@ Este proyecto es una **herramienta de visualización interactiva** diseñada par
 
 ## 🚀Estructura y componentes
 
-| Archivo/carpeta | Proposito    | Tecnologia                |
+| Archivo/carpeta | Propósito    | Tecnología                |
 | :-------- | :------- | :------------------------- |
- | `index.html` | Interfaz de usuario, animacion y controlador principal | HTML, CSS, JavaScript | 
-| `algoritms`/ | Contiene la logica de ordenamiento por micro-pasos    | Python                      |
-| `README.md`| Documentacion del proyecto e implementacion | Markdown|
+ | `index.html` | Interfaz de usuario, animación y controlador principal | HTML, CSS, JavaScript | 
+| `algoritms`/ | Contiene la lógica de ordenamiento por micro-pasos    | Python                      |
+| `README.md`| Documentación del proyecto e implementación | Markdown|
 
 
-## Algoritmos implementados + Metricas implementadas
+## Algoritmos implementados + Métricas implementadas
 
 - **Bubble Sort (sort_bubble.py):** Intercambia pares adyacentes hasta que el mayor "burbujea" al final.
 
 - **Insertion Sort(sort_insertion.py):** Inserta el elemento actual en su posicion correcta dentro del sub-arreglo ordenado.
 
-- **Selection Sort(sort_selection.py):** Busca el elemento minimo y lo coloca al inicio de cada pasada.
+- **Selection Sort(sort_selection.py):** Busca el elemento mínimo y lo coloca al inicio de cada pasada.
 
 - **Quick Sort(sort_quick.py):** Divide el arreglo alrededor de un pivote y luego ordena recursivamente las dos mitades.
 
 - **Shell Sort(sort_shell.py):** Mejora de Insertion Sort, utilizando saltos (gaps) para mover elementos distantes.
 
-- **Metrica de tiempo**
+- **Métrica de tiempo**
 
-- **Metrica de historial de rendimiento**
+- **Métrica de historial de rendimiento**
 
 # 📝Notas de implementación 
  
@@ -43,9 +43,9 @@ y los rangos de operacion  (low, high)
 
 Para ejecutar el visualizador, abre el archivo index.html en tu navegador web.
 
-- **Ajustes iniciales:** modifica el control deslizante de cantidad para definir el tamaño de arreglo
+- **Ajustes iniciales:** modifica el control deslizante de cantidad para definir el tamaño de arreglo.
 
-- **Inicializacion:** pulsa el boton mezclar para generar una nueva secuencia aleatoria de barras. Elige un algoritmo del menu desplegable.
+- **Inicialización:** pulsa el boton mezclar para generar una nueva secuencia aleatoria de barras. Elige un algoritmo del menú desplegable.
  
 
   **Control de ejecución:**
